@@ -13,6 +13,12 @@
 		638356AE2A0E8DB6009421E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638356AC2A0E8DB6009421E7 /* Main.storyboard */; };
 		638356B02A0E8DBB009421E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638356AF2A0E8DBB009421E7 /* Assets.xcassets */; };
 		638356B32A0E8DBB009421E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638356B12A0E8DBB009421E7 /* LaunchScreen.storyboard */; };
+		638356BB2A0E8E37009421E7 /* SkeletonCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638356BA2A0E8E37009421E7 /* SkeletonCode.swift */; };
+		638356C12A0E929C009421E7 /* NFTGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638356C02A0E929C009421E7 /* NFTGenerator.swift */; };
+		638356C32A0E9581009421E7 /* GenerationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638356C22A0E9581009421E7 /* GenerationService.swift */; };
+		638356C52A0E95EA009421E7 /* NFTDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638356C42A0E95EA009421E7 /* NFTDatabase.swift */; };
+		638356C72A0E9689009421E7 /* NFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638356C62A0E9688009421E7 /* NFT.swift */; };
+		638356CA2A0E9886009421E7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638356C92A0E9886009421E7 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		638356AF2A0E8DBB009421E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		638356B22A0E8DBB009421E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		638356B42A0E8DBB009421E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638356BA2A0E8E37009421E7 /* SkeletonCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCode.swift; sourceTree = "<group>"; };
+		638356C02A0E929C009421E7 /* NFTGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTGenerator.swift; sourceTree = "<group>"; };
+		638356C22A0E9581009421E7 /* GenerationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationService.swift; sourceTree = "<group>"; };
+		638356C42A0E95EA009421E7 /* NFTDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTDatabase.swift; sourceTree = "<group>"; };
+		638356C62A0E9688009421E7 /* NFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFT.swift; sourceTree = "<group>"; };
+		638356C92A0E9886009421E7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				638356A82A0E8DB6009421E7 /* SceneDelegate.swift */,
 				638356AA2A0E8DB6009421E7 /* ViewController.swift */,
 				638356AC2A0E8DB6009421E7 /* Main.storyboard */,
+				638356BA2A0E8E37009421E7 /* SkeletonCode.swift */,
+				638356C02A0E929C009421E7 /* NFTGenerator.swift */,
+				638356C22A0E9581009421E7 /* GenerationService.swift */,
+				638356C92A0E9886009421E7 /* User.swift */,
+				638356C42A0E95EA009421E7 /* NFTDatabase.swift */,
+				638356C62A0E9688009421E7 /* NFT.swift */,
 				638356AF2A0E8DBB009421E7 /* Assets.xcassets */,
 				638356B12A0E8DBB009421E7 /* LaunchScreen.storyboard */,
 				638356B42A0E8DBB009421E7 /* Info.plist */,
@@ -139,7 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				638356AB2A0E8DB6009421E7 /* ViewController.swift in Sources */,
+				638356C32A0E9581009421E7 /* GenerationService.swift in Sources */,
+				638356C52A0E95EA009421E7 /* NFTDatabase.swift in Sources */,
+				638356BB2A0E8E37009421E7 /* SkeletonCode.swift in Sources */,
+				638356C72A0E9689009421E7 /* NFT.swift in Sources */,
+				638356CA2A0E9886009421E7 /* User.swift in Sources */,
 				638356A72A0E8DB6009421E7 /* AppDelegate.swift in Sources */,
+				638356C12A0E929C009421E7 /* NFTGenerator.swift in Sources */,
 				638356A92A0E8DB6009421E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
